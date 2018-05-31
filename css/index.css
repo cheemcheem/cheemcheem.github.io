@@ -115,6 +115,7 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-bottom: 69px;
 }
 
 #scrollable > div > div {
