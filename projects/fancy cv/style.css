@@ -1,0 +1,166 @@
+/*General*/
+
+* {
+    -webkit-transition: all ease-in 0.2s;
+    transition: all ease-in 0.2s;
+}
+
+.visible {
+    display: block!important;
+    visibility: visible!important;
+}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+body {
+    /* Background pattern from Subtle Patterns */
+    background: url("images/background/knitting250px_@2X.png") repeat;
+}
+
+.padded-top {
+    padding-top:20px;
+}
+
+.padded-bottom {
+    padding-bottom: 20px;
+}
+
+
+/*Header*/
+
+.header {
+    background: wheat!important;
+    color: saddlebrown!important;
+
+}
+
+.content-break {
+    display: none;
+}
+
+.nav-break {
+    display: block;
+}
+
+@media screen and (max-width: 767px) {
+    .content-break {
+        display: block;
+    }
+    .nav-break {
+        display: none;
+    }
+    .header {
+        display: none!important;
+    }
+    .LI-profile-badge {
+        display: none;
+    }
+}
+/*Cards*/
+
+.card {
+    display: none;
+    visibility: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: ivory;
+    border: none;
+}
+
+.card-img-top {
+    width: 100%;
+}
+
+.bg-primary {
+    background: saddlebrown!important;
+}
+
+.bg-success {
+    background: peru!important;
+}
+
+/*Education*/
+.myList {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+/*Languages*/
+
+.logo {
+    height: 60px;
+}
+
+
+/*Navigation*/
+
+.nav-link {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: peru;
+
+}
+:hover {
+    transition: color linear 0.25s;
+}
+
+div.sidebar ul.nav li.nav-item a.nav-link.active {
+    background: saddlebrown;
+}
+
+div#nav-items-div ul li a.active {
+     color: saddlebrown;
+}
+
+div#nav-items-div.sidebar ul li a.active {
+     color: ivory;
+}
+
+a.nav-link:hover {
+    color: saddlebrown;
+}
+
+li.nav-item a.nav-link.active:hover {
+    color: peru;
+}
+
+div.collapse ul li {
+    font-size: x-large;
+}
+
+.navbar-toggleable-md {
+    opacity: 0.95;
+
+}
+
+li.nav-item {
+    padding: 10px 15px 10px 15px;
+}
+
+.sidebar {
+    padding: 0;
+}
+
+.sideNav nav {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: ivory;
+}
+
+.sideNav {
+    height: 100%;
+    overflow-y: auto;
+}
+
+div#nav-div div.scaleable div.LI-profile-badge {
+    width: 100% !important;
+    position: relative;
+}
+
+.scaleable {
+    resize: both;
+    position: relative;
+    width: 100%;
+}
